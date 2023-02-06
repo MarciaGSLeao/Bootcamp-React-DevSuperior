@@ -8,6 +8,7 @@ const p1 = {
 console.log(p1)
 
 // FUNÇÃO CONSTRUTORA
+// os atributos da classe são definidos na função construtora e os métodos, em seu prototype.
 const Product = function(name, price, quantity){
     this.name = name,
     this.price = price,
@@ -43,7 +44,6 @@ p2.add(2)
 console.log(p2)
 
 // OU COMO CLASSE
-// os atributos da classe são definidos na função construtora e os métodos, em seu prototype.
 class ProductB {
     constructor(name, price, quantity) {
         this.name = name,
